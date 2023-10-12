@@ -2,7 +2,7 @@ import Book from "./book";
 
 function Read(){
 
-              {/*I added the following JSON to the read component and store it in a const variable.
+              {/*I added the following JSON to the read component and stored it in a const variable.
                 This will pass this read components data to our new books component.*/}
     const data = [
     {
