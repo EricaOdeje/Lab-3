@@ -2,6 +2,8 @@ import Book from "./book";
 
 function Read(){
 
+              {/*I added the following JSON to the read component and store it in a const variable.
+                This will pass this read components data to our new books component.*/}
     const data = [
     {
     "title": "Learn Git in a Month of Lunches",
@@ -40,6 +42,7 @@ function Read(){
     
 return(
     <div>
+              {/*For each book, I have to pulled out one book. The object MyBook will give you access*/}
         <h2>Hello from my Read component</h2>
         <Book myBook = {data}></Book>
     </div>
